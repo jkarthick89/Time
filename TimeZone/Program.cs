@@ -14,7 +14,7 @@ namespace TimeZone
             //added this comments
             DateTime IndianTime = new DateTime(2007, 01, 02, 12, 16, 00);            
             DateTime ESTtime = new DateTime(2015, 05, 20, 17, 57, 33);
-           
+            //added this comment1
             TimeZoneInfo ESTtimeZone2 = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");                        
             DateTime newTime = TimeZoneInfo.ConvertTime(IndianTime,TimeZoneInfo.Local, ESTtimeZone2);                      
 
